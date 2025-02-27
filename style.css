@@ -10,6 +10,9 @@ body {
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
+    height: 500px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.3)), 
+    url('images/porsche-logo.jpg') center/cover no-repeat;;
 }
 
 .top-line {
@@ -77,12 +80,9 @@ ul {
 
 .placeholder {
     background-color: grey;
-    border: 10px solid grey;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 170px;
-    width: 400px;
     color: #e5e7eb;
 }
 
@@ -90,4 +90,9 @@ ul {
     display: flex;
     justify-content: space-evenly;
     margin: 50px;
+}
+
+img {
+    width: 500px;
+    height: auto;
 }
