@@ -76,6 +76,9 @@ ul {
     border: none;
     display: flex;
     flex-shrink: 0;
+    padding: 10px 15px;
+    width: 110px;
+    justify-content: center;
 } 
 
 .placeholder {
@@ -90,9 +93,18 @@ ul {
     display: flex;
     justify-content: space-evenly;
     margin: 50px;
+    align-items: center;
 }
 
 img {
     width: 500px;
     height: auto;
+}
+
+.cleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
