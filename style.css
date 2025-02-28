@@ -10,7 +10,7 @@ body {
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
-    height: 500px;
+    height: 1000px;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.3)), 
     url('images/porsche-logo.jpg') center/cover no-repeat;;
 }
@@ -79,6 +79,7 @@ ul {
     padding: 10px 15px;
     width: 110px;
     justify-content: center;
+    cursor: pointer;
 } 
 
 .placeholder {
@@ -104,8 +105,38 @@ ul {
     text-align: center;
 }
 
-img {
-    width: 350px;
-    border: 5px transparent;
+.info img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image fills the box without distortion */
     border-radius: 30px;
+}
+
+.info {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.some {
+    font-size: 36px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container-images {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    margin: 50px;
+    flex-wrap: wrap;
+}
+
+.text {
+    font-size: 14px;
+    padding: 10px;
 }
