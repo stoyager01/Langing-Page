@@ -96,15 +96,16 @@ ul {
     align-items: center;
 }
 
-img {
-    width: 500px;
-    height: auto;
-}
-
 .cleft {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+img {
+    width: 350px;
+    border: 5px transparent;
+    border-radius: 30px;
 }
